@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&amp;display=swap" />
+<link rel="stylesheet" href="css/slider.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+<body>
+  <div class="site-warapper">
+    <!-- header sedtion -->
+    <header id="header" class="header-section section-p2">
+      <div class="nav_bar">
+        <div class="logo">
+          <a href="#home">
+            <h3>Real Estate</h3>
+          </a>
+        </div>
+        <div class="menu_bar">
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#project">Our project</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+          <div id="desktop_ham" class="contact">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- hero section -->
+    <section id="home" class="hero-section">
+      <div class="home-relative">
+        <div class="bottom-ui-container">
+          <div class="slide-section">
+            <h1>My Properties</h1>
+            <h3>Locatiion: Gurgaon</h3>
+            <h3>2, 3, 4 BHK Apartments</h3>
+            <h3>Price: 1.5 Cr*</h3>
+          </div>
+          <div class="slide-counter">
+            <div class="counter-nav prev-slide">⟪</div>
+            <div class="counter-display">
+              <!-- <span class="current-slide">01</span>
+                <span class="counter-divider">//</span>
+                <span class="total-slides">06</span> -->
+            </div>
+            <div class="counter-nav next-slide">⟫</div>
+          </div>
+          <div class="slide-title-container">
+            <div class="slide-title">Cosmic Harmony</div>
+          </div>
+          <div class="drag-indicator"></div>
+          <div class="thumbs-container">
+            <div class="frost-bg"></div>
+            <div class="slide-thumbs"></div>
+          </div>
+        </div>
+        <div class="slides">
+          <div class="slide">
+            <div class="slide__img" style="
+                  background-image: url('../img/banner-img/banner-1.webp');
+                "></div>
+          </div>
+          <div class="slide">
+            <div class="slide__img" style="
+                  background-image: url('../img/banner-img/banner-2.webp');
+                "></div>
+          </div>
+          <div class="slide">
+            <div class="slide__img" style="
+                  background-image: url('../img/banner-img/banner-3.webp');
+                "></div>
+          </div>
+          <div class="slide">
+            <div class="slide__img" style="
+                  background-image: url('../img/banner-img/banner-4.webp');
+                "></div>
+          </div>
+          <div class="slide">
+            <div class="slide__img" style="
+                  background-image: url('../img/banner-img/banner-5.png');
+                "></div>
+          </div>
+          <div class="slide">
+            <div class="slide__img" style="
+                  background-image: url('../img/banner-img/banner-6.png');
+                "></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main-form -->
+    <div class="hero-form popUpForm show-popup" id="formPopUp">
+      <section id="get-tuch" class="get-tuch-section main-form">
+        <div class="get_in_tuch text-center">
+          <h3>Get in Touch</h3>
+
+          <div class="form-wrap">
+            <form action="" class="form-section">
+              <div class="input-group mt-3 mb-3">
+                <input type="text" id="name_Default" name="name" class="get-tuch" required="" data-exists="false">
+                <label for="name" class="input-group_label">Name</label>
+              </div>
+              <div class="input-group mt-3 mb-3">
+                <input type="text" id="email_Default" name="email" class="get-tuch" required="" data-exists="false">
+                <label for="email" class="input-group_label">email</label>
+              </div>
+              <div class="input-group mt-3 mb-3">
+                <input type="text" id="phone_Default" name="phone" class="get-tuch" required="" data-exists="false">
+                <label for="phone" class="input-group_label">phone</label>
+              </div>
+              <div class="input-group mt-3 mb-3">
+                <input type="text" id="message_Default" name="message..." class="get-tuch" required=""
+                  data-exists="false">
+                <label for="message" class="input-group_label">Enter Message</label>
+              </div>
+
+              <button class="btn_submit mt-3 mb-3 get-tuch-btn" id="submit_Default"
+                name="submit_Default">Submit</button>
+            </form>
+          </div>
+          <div class="inp-box d-flex align-items-baseline justify-content-center">
+            <input type="checkbox" checked="" id="vehicle1" name="vehicle1" value="form-checkbox">
+            <label for="vehicle1" class="inp-txt text-white" style="font-size: 12px; margin: 0px 8px">
+              I authorize company representatives to Call, SMS, Email or
+              WhatsApp me about its products and offers. This consent
+              overrides any registration for DNC/NDNC.
+            </label>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- overview section -->
+    <section id="overview" class="overview-section section-p2">
+      <div class="head">
+        <h3>Overview</h3>
+      </div>
+      <div class="flex-container align-items-center">
+        <div class="left-section">
+          <div class="ov_img">
+            <img src="img/overview.webp" alt="overview image" />
+          </div>
+        </div>
+        <div class="right-section">
+          <div class="ov_info">
+            <h3>My Properties</h3>
+            <div class="over_loc">
+              <span class="material-symbols-outlined"> pin_drop </span>
+              Project Location
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+              assumenda quis voluptas, nisi totam iure modi ipsum dicta
+              incidunt reiciendis tempora aspernatur maiores hic aliquid odio
+              temporibus esse amet quod ut unde repudiandae. Dignissimos
+              tempore fugit blanditiis officia quisquam repudiandae
+              exercitationem hic deserunt consectetur illo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quia alias molestiae! Provident, dolorem cupiditate nam dicta ducimus quos quia odit veniam at,
+              eveniet nisi odio officiis ullam rem blanditiis deleniti in illo totam velit id. Totam tenetur provident
+              facere unde repellat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project section -->
+    <section id="project" class="project-section section-p2">
+      <div class="head">
+        <h3>Projects</h3>
+      </div>
+
+      <!-- project cards  -->
+      <div class="project-cards">
+        <div class="dfoult_project d-none">
+          <div class="cards d-none" id="project_plater">
+            <div class="card-info">
+              <h4 class="card_head">Platter Project</h4>
+              <p class="card_loctaion">platter Location</p>
+              <p class="card_type">Platter Typology</p>
+              <p class="card_price">platter Price</p>
+              <p class="card_status">New Launch</p>
+            </div>
+            <div class="card-img">
+              <img src="../img/banner-img/banner-1.webp" alt="Banner Image" />
+            </div>
+            <div class="buttons card-btn">
+              <button class="open_popup" id="defaultPopupTrigger" data-project-id="defaultProject"
+                data-project-name="Platter Project" data-project-loctaion="platter Location"
+                data-project-type="Platter Typology" data-project-price="platter Price"
+                data-project-status="New Launch">
+                Know More
+              </button>
+              <button class="redit_link">Interested</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project1 por-flx">
+          <div class="cards">
+            <div class="card-info">
+              <h4 class="card_head">Project 1</h4>
+              <p class="card_loctaion">Project 1 Location</p>
+              <p class="card_type">Project 1 Typology</p>
+              <p class="card_price">Project 1 Price</p>
+              <p class="card_status">New Launch</p>
+            </div>
+            <div class="card-img">
+              <img src="../img/banner-img/banner-1.webp" alt="Banner Image" />
+            </div>
+            <div class="buttons card-btn">
+              <button class="open_popup" id="defaultPopupTrigger" data-project-id="project1"
+                data-project-name="Project 1" data-project-loctaion="Project 1 Location"
+                data-project-type="Project 1 Typology" data-project-price="Project 1 Price"
+                data-project-status="New Launch">
+                Know More
+              </button>
+              <button class="redit_link">Interested</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project2 por-flx">
+          <div class="cards">
+            <div class="card-info">
+              <h4 class="card_head">Project 2</h4>
+              <p class="card_loctaion">Project 2 Location</p>
+              <p class="card_type">Project 2 Typology</p>
+              <p class="card_price">Project 2 Price</p>
+              <p class="card_status">New Launch</p>
+            </div>
+            <div class="card-img">
+              <img src="https://gtftech.in/praveen-layout/April/platter/img/banner-img/banner-2.webp"
+                alt="Banner Image" />
+            </div>
+            <div class="buttons card-btn">
+              <button class="open_popup" id="defaultPopupTrigger" data-project-id="project2"
+                data-project-name="Project 2" data-project-loctaion="Project 2 Location"
+                data-project-type="Project 2 Typology" data-project-price="Project 2 Price"
+                data-project-status="New Launch">
+                Know More
+              </button>
+              <button class="redit_link">Interested</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project3 por-flx">
+          <div class="cards">
+            <div class="card-info">
+              <h4 class="card_head">Project 3</h4>
+              <p class="card_loctaion">Project 3 Location</p>
+              <p class="card_type">Project 3 Typology</p>
+              <p class="card_price">Project 3 Price</p>
+              <p class="card_status">New Launch</p>
+            </div>
+            <div class="card-img">
+              <img src="https://gtftech.in/praveen-layout/April/platter/img/banner-img/banner-3.webp"
+                alt="Banner Image" />
+            </div>
+            <div class="buttons card-btn">
+              <button class="open_popup" id="defaultPopupTrigger" data-project-id="project3"
+                data-project-name="Project 3" data-project-loctaion="Project 3 Location"
+                data-project-type="Project 3 Typology" data-project-price="Project 3 Price"
+                data-project-status="New Launch">
+                Know More
+              </button>
+              <button class="redit_link">Interested</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project4 por-flx">
+          <div class="cards">
+            <div class="card-info">
+              <h4 class="card_head">Project 4</h4>
+              <p class="card_loctaion">Project 4 Location</p>
+              <p class="card_type">Project 4 Typology</p>
+              <p class="card_price">Project 4 Price</p>
+              <p class="card_status">New Launch</p>
+            </div>
+            <div class="card-img">
+              <img src="https://gtftech.in/praveen-layout/April/platter/img/banner-img/banner-4.webp"
+                alt="Banner Image" />
+            </div>
+            <div class="buttons card-btn">
+              <button class="open_popup" id="defaultPopupTrigger" data-project-id="project4"
+                data-project-name="Project 4" data-project-loctaion="Project 4 Location"
+                data-project-type="Project 4 Typology" data-project-price="Project 4 Price"
+                data-project-status="New Launch">
+                Know More
+              </button>
+              <button class="redit_link">Interested</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities section -->
+    <section id="amenities" class="amenities-section section-p2">
+      <div class="head">
+        <h3>Amenities</h3>
+      </div>
+      <div class="amenities_cro">
+        <div class="amenities_slider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- ITEM 1 -->
+              <div class="swiper-slide" data-slide="01">
+                <div class="c-swiper__text">
+                  <div class="c-swiper__title">Fitness Center</div>
+                </div>
+
+                <div class="c-swiper__image-container">
+                  <img src="img/amenities/img1.webp" alt="" />
+                </div>
+              </div>
+
+              <!-- ITEM 2 -->
+              <div class="swiper-slide" data-slide="02">
+                <div class="c-swiper__text">
+                  <div class="c-swiper__title">
+                    Rooftop Haven an Infinity Pool
+                  </div>
+                </div>
+
+                <div class="c-swiper__image-container">
+                  <img src="img/amenities/img2.webp" alt="" />
+                </div>
+              </div>
+
+              <!-- ITEM 3 -->
+              <div class="swiper-slide" data-slide="03">
+                <div class="c-swiper__text">
+                  <div class="c-swiper__title">
+                    Smart Home Technology Integration
+                  </div>
+                </div>
+
+                <div class="c-swiper__image-container">
+                  <img src="img/amenities/img3.webp" alt="" />
+                </div>
+              </div>
+
+              <!-- ITEM 4 -->
+              <div class="swiper-slide" data-slide="04">
+                <div class="c-swiper__text">
+                  <div class="c-swiper__title">Parking</div>
+                </div>
+
+                <div class="c-swiper__image-container">
+                  <img src="img/amenities/img4.webp" alt="" />
+                </div>
+              </div>
+
+              <!-- ITEM 5 -->
+              <div class="swiper-slide" data-slide="05">
+                <div class="c-swiper__text">
+                  <div class="c-swiper__title">Party Hall & Pantry</div>
+                </div>
+
+                <div class="c-swiper__image-container">
+                  <img src="img/amenities/img5.webp" alt="" />
+                </div>
+              </div>
+
+              <!-- ITEM 6 -->
+              <div class="swiper-slide" data-slide="06">
+                <div class="c-swiper__text">
+                  <div class="c-swiper__title">Kids Play Area</div>
+                </div>
+
+                <div class="c-swiper__image-container">
+                  <img src="img/amenities/img6.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swp_btn">
+          <span class="material-symbols-outlined">
+            keyboard_double_arrow_left
+          </span>
+        </div>
+        <div class="swiper-button-prev swp_btn">
+          <span class="material-symbols-outlined">
+            keyboard_double_arrow_right
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- popup Form -->
+    <section id="popUpGetTuch" class="PopUpget-tuch-section section-p2">
+      <div class="get_in_tuch text-center">
+        <div class="flex-container align-items-stretch">
+          <div class="close_pop" id="clsPop">
+            <span class="material-symbols-outlined">close</span>
+          </div>
+          <!-- Dynamic Image -->
+          <div class="left-section">
+            <div class="rlvt">
+              <img src="img/banner-img/banner-1.webp" alt="Project Image" id="popupProjectImage" />
+              <div class="project_info_pop">
+                <h3 class="grn" id="popupProjectName">Project Name</h3>
+                <p class="text-white" id="popupProjectLoctaion">
+                  <strong>Location :</strong> Sector 65, Gurgaon
+                </p>
+                <p class="text-white" id="popupProjectType">
+                  <strong>Type :</strong> 4.5 BHK + Servant
+                </p>
+                <p class="text-white" id="popupProjectPrice">
+                  <strong>Starting Price :</strong> 8.99 Cr* Onwards
+                </p>
+                <p class="text-white" id="popupProjectStatus">
+                  <strong>Status :</strong> New Launch
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="right-section">
+            <div class="popForm">
+              <h3 class="text-white">Express Your Interest!</h3>
+
+              <div class="col-12">
+                <form action="" class="form-section" id="popupForm">
+                  <div class="input-group">
+                    <input type="text" class="get-tuch name-input" id="name_defaultProject" required />
+                    <label class="input-group_label name-label" for="name_defaultProject">Name</label>
+                  </div>
+
+                  <div class="input-group">
+                    <input type="email" class="get-tuch email-input" id="email_defaultProject" required />
+                    <label class="input-group_label email-label" for="email_defaultProject">Email</label>
+                  </div>
+
+                  <div class="input-group">
+                    <input type="text" class="get-tuch phone-input" id="phone_defaultProject" required />
+                    <label class="input-group_label phone-label" for="phone_defaultProject">Phone</label>
+                  </div>
+
+                  <div class="input-group">
+                    <input class="get-tuch message-input" id="message_defaultProject" type="text" required></input>
+                    <label class="input-group_label message-label" for="message_defaultProject">Enter Message</label>
+                  </div>
+
+                  <button type="button" id="submit_defaultProject" class="btn_submit get-tuch-btn submit-button">
+                    Submit
+                  </button>
+                </form>
+              </div>
+
+              <div class="inp-box d-flex align-items-baseline justify-content-center">
+                <input type="checkbox" checked id="vehicle1" name="vehicle1" value="form-checkbox"
+                  style="margin-top: 4px" />
+                <label for="vehicle1" class="inp-txt text-white" style="font-size: 12px; margin: 0 5px">
+                  I authorize company representatives to Call, SMS, Email or
+                  WhatsApp me about its products and offers. This consent
+                  overrides any registration for DNC/NDNC.
+                </label>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery-section section-p2">
+      <div class="head">
+        <h3>Gallery</h3>
+      </div>
+      <div class="gallery-slider-wraper">
+        <div class="gallery-img-box">
+          <img src="img/gallery/img1.webp" alt="">
+        </div>
+        <div class="gallery-slider">
+          <div class="gallery">
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img1.webp" alt="Gallery Image"></div>
+            </div>
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img2.webp" alt="Gallery Image"></div>
+            </div>
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img3.webp" alt="Gallery Image"></div>
+            </div>
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img4.webp" alt="Gallery Image"></div>
+            </div>
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img5.webp" alt="Gallery Image"></div>
+            </div>
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img6.webp" alt="Gallery Image"></div>
+            </div>
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img7.webp" alt="Gallery Image"></div>
+            </div>
+            <div class="gallery-item">
+              <div class="g-img">  <img src="img/gallery/img8.webp" alt="Gallery Image"></div>
+            </div>
+          </div>
+       
+        </div>
+      </div>
+    </section>
+
+<!-- footer section -->
+<footer id="footer" class="text-center footer_section section-p2">
+  <p class="Project_rera"><strong>Project Rera No :</strong></p>
+  <p class="agent_rera"><strong>Agent Rera No :</strong></p>
+  <p class="disclaimer">
+    <strong>Disclaimer -</strong> The content provided on this website is
+    for information purposes only and does not constitute an offer to
+    avail any service. The prices mentioned are subject to change without
+    prior notice, and the availability of properties mentioned is not
+    guaranteed.
+  </p>
+  <div class="read-out" style="display: none">
+    <p>
+      The images displayed on the website are for representation purposes
+      only and may not reflect the actual properties accurately. Please
+      note that this is the official website of an authorized marketing
+      partner. We may share data with Real Estate Regulatory Authority
+      (RERA) registered brokers/companies for further processing as
+      required. We may also send updates and information to the mobile
+      number or email ID registered with us. All rights reserved. The
+      content, design, and information on this website are protected by
+      copyright and other intellectual property rights. Any unauthorized
+      use or reproduction of the content may violate applicable laws. For
+      accurate and up-to-date information regarding services, pricing,
+      availability, and any other details, it is advisable to contact us
+      directly through the provided contact information on this website.
+      Thank you for visiting our website.
+    </p>
+  </div>
+  <strong class="read-mor-les mt-2 mb-2" style="cursor: pointer">Read more</strong>
+  <p>
+    <a target="_blank" href="disclaimer.html">Disclaimer &amp; Privacy Policy</a>
+    | Digital Media Planned By
+    <a href="http://www.gtftechnologies.com/" target="_blank">
+      GTF Technologies</a>
+    <a href="https://www.google.com/partners/agency?id=6096246672" target="_blank">
+    </a>
+  </p>
+</footer>
+
+  </div>
+</body>
+
+<!-- GSAP and jQuery scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Observer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  window.AgentInfo = {
+    vAgentID: "0000",
+    vProject: "Project name",
+    vURL: window.location.href,
+    thankspageurl: "/thanks.htm",
+  };
+</script>
+
+<script type="text/javascript" language="javascript" defer>
+  var versionUpdate = new Date().getTime();
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src =
+    "https://api2.gtftech.com/scripts/queryform.min.ssl.js?v=" +
+    versionUpdate;
+  document.body.appendChild(script);
+</script>
+
+<!-- Your local scripts -->
+<script src="js/main.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/formHendling.js"></script>
+    
+</html>
